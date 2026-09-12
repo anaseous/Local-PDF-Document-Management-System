@@ -1,34 +1,34 @@
 # PDF Document Workspace
 
-A browser-based workspace for viewing, merging, splitting, rearranging, rotating, annotating, signing, editing and exporting PDF documents. Document processing remains in the browser.
+Privacy-focused PDF editor inspired by Preview.
 
-## Editions
+Merge, split, sort, reorder, rotate, annotate, sign, fill forms, and edit PDF documents directly in your browser. Files are processed locally on your device without uploading documents to external services.
 
-- **Single-page web app:** `single-page/index.html` contains the application and embedded libraries in one file. It can be opened directly or hosted as a static page.
-- **Progressive Web App:** `pwa/` adds an application manifest, install icons, service worker and offline application-shell cache. Host this edition over HTTPS for installation.
+## Features
 
-## Publish with GitHub Pages
+- Merge PDF files
+- Split PDF documents
+- Reorder PDF pages
+- Rotate PDF pages
+- Organize PDF documents
+- Edit PDF text
+- Annotate PDFs
+- Fill and sign PDF forms
+- Offline-capable Progressive Web App (PWA)
+- Cross-platform support
+- Windows, macOS, Linux and ChromeOS compatible
+- Private local document processing
+- No account required
+- No cloud dependency
+- Enterprise-friendly deployment
+- Installable web application
 
-1. Create a repository and upload the contents of this archive, not the outer folder.
-2. Open **Settings > Pages**.
-3. Under **Build and deployment**, choose **GitHub Actions**.
-4. Push to the `main` branch. The included workflow publishes the repository.
-5. Open the deployed `/pwa/` path in a supported browser to install the PWA.
+## SEO Keywords
 
-GitHub Pages project paths are supported because all application assets use relative URLs.
+PDF editor, free PDF editor, local PDF editor, browser PDF editor, web PDF editor, HTML PDF editor, offline PDF editor, PDF workspace, PDF document workspace, PDF manager, PDF organizer, merge PDF, split PDF, edit PDF, sign PDF, annotate PDF, fill PDF forms, rotate PDF pages, rearrange PDF pages, sort PDF pages, organize PDF documents, combine PDF files, PDF toolkit, document workspace, document organizer, Preview alternative, macOS Preview alternative, Preview app alternative, Preview for Windows, Preview for Linux, browser Preview alternative, cross-platform PDF editor, secure PDF editor, private PDF editor, PDF editor without upload, PDF editor without cloud, client-side PDF editor, enterprise PDF editor, business PDF editor, portable PDF editor, progressive web app, PWA PDF editor, offline document editor, local document processing, safe PDF editor, web-based PDF editor.
 
-## Local test
+## Description
 
-```bash
-python3 -m http.server 8080
-```
+PDF Document Workspace is a modern browser-based PDF editor inspired by the simplicity and productivity of Preview. Manage PDF documents locally using a secure and privacy-focused workflow. Merge files, split documents, sort and reorder pages, rotate pages, annotate content, add signatures, edit text, and export finished documents without leaving the browser.
 
-Open `http://localhost:8080/`. Do not test PWA installation by opening `index.html` through a `file://` URL.
-
-## Privacy
-
-PDF documents are processed locally by the browser. The service worker caches application files only. Saved signatures use browser local storage.
-
-## Security
-
-Review `SECURITY.md` before publishing. Test changes with representative PDF files before release.
+Designed as a cross-platform HTML web application and installable Progressive Web App (PWA), PDF Document Workspace works on Windows, macOS, Linux, ChromeOS, and modern mobile platforms.
